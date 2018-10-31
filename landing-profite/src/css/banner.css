@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+    /* background: #011627; */
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner ul {
+    padding: 0;
+}
+.banner ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.banner ul li .left, .banner ul li .right {
+    width: 50%;
+}
+.banner .left {
+    height: 100%;
+    
+}
+.banner .left h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 45px;
+    color: white;
+}
