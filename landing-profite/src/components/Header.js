@@ -20,7 +20,7 @@ class Header extends Component {
                 </div>
                 <div className="cart">
                     <a><img src="./assets/cart.svg"/></a>
-                    <span>1</span>
+                    <span>0</span>
                 </div>
                 </div>
                 <div className="line"><img src="./assets/line.svg"/></div>

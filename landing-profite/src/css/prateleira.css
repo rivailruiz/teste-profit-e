@@ -1,3 +1,61 @@
-ul li {
+.listagem ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listagem ul li {
     list-style: none;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.listagem ul li:hover {
+    background: #F2F2F2;
+}
+.listagem ul li:hover .botaoComprar {
+    opacity: 1 !important;
+}
+.listagem ul {
+    padding: 0;
+}
+
+.listagem .imagemProduto {
+    width: 100%;
+    height: 190px;
+}
+.listagem .imagemProduto img {
+    width: 100%;
+    height: auto;
+}
+.listagem .preco {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.listagem .tituloProduto p { 
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+.listagem .preco .precoDe {
+    text-decoration: line-through;
+    color: #7A7A7A;
+    font-size: 12px;
+}
+
+.listagem .preco .precoPor {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #2EC4B6;
+}
+
+.listagem .preco .ou {
+    font-size: 11px;
+    text-align: center;
+    color: #7A7A7A;
 }

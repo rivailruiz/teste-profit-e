@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-
-
-
 class TituloComum extends Component {
   render() {
       const titulo = '';
