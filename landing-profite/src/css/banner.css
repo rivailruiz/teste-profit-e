@@ -35,6 +35,7 @@
     position: absolute;
     width: 30%;
     left: 20%;
+    top: 35%;
 }
 
 .banner h3:after {
@@ -44,4 +45,14 @@
     left: 0;
     font-weight: bold;
     color: #FF9F1C;   
+}
+
+.slider-control-centerleft {
+    left: 15% !important;
+}
+.slider-control-centerright {
+    right: 15% !important;
+}
+.slider-list {
+    cursor: default !important;
 }
