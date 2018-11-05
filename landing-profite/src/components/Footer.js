@@ -34,8 +34,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="block-right">
-                    <div className="profite">AAA</div>
-                    <div className="vtex">AAAA</div>
+                    <img src="./assets/logos-footer.svg"/>
                 </div>
            </div>
        </section>

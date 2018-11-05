@@ -1,6 +1,9 @@
 h1,h2,h3 {
     margin: 0;
 }
+button {
+    cursor: pointer;
+}
 .footer {
     height: 223px;
     width: 100%;
@@ -15,6 +18,7 @@ h1,h2,h3 {
     font-weight: bold;
     line-height: normal;
     font-size: 20px;
+    margin-bottom: 14px;
 }
 .footer .loc h2:after {
     content: '_____';
@@ -31,10 +35,11 @@ h1,h2,h3 {
     align-items: center;
 }
 .footer .wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 213px;
+    /* height: 213px; */
 }
 .address {
     display: flex;
@@ -58,6 +63,16 @@ h1,h2,h3 {
     height: 180px;
 
 }
+.footer .contact button {
+    position: relative;
+}
+
+.footer .contact img {
+    vertical-align: middle;
+    position: absolute;
+    left: 11px;
+    top: 11px; 
+}
 
 .footer .contact button {
     width: 195px;
@@ -72,3 +87,12 @@ h1,h2,h3 {
     font-weight: 500;
     margin-bottom: 30px;
 }
+.footer .contact button:last-child {
+    margin-bottom: 0;
+}
+
+.footer .block-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }

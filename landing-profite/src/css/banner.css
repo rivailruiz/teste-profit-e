@@ -1,6 +1,6 @@
 .banner {
     width: 100%;
-    /* background: #011627; */
+    background: #011627;
 }
 .banner img {
     width: 100%;
@@ -20,7 +20,9 @@
 }
 .banner .left {
     height: 100%;
-    
+}
+.banner .left h3 {
+    font-size: 45px;
 }
 .banner .left h3 {
     font-family: Ubuntu;
