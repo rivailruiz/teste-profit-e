@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    position: relative;
 }
 .banner ul li .left, .banner ul li .right {
     width: 50%;
@@ -24,11 +25,23 @@
 .banner .left h3 {
     font-size: 45px;
 }
-.banner .left h3 {
+.banner h3 {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 45px;
+    font-size: 32px;
     color: white;
+    position: absolute;
+    width: 30%;
+    left: 20%;
+}
+
+.banner h3:after {
+    content: '___';
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-weight: bold;
+    color: #FF9F1C;   
 }

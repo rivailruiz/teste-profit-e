@@ -19,6 +19,10 @@
 .listagem ul {
     padding: 0;
 }
+.listagem .flag {
+    text-align: right;
+    height: 76px;
+}
 
 .listagem .imagemProduto {
     width: 100%;

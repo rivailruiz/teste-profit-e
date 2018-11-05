@@ -9,22 +9,12 @@ class Banner extends Component {
     return (
        <section>
            <div className="banner">
-                <div className="wrapper">
-                    <ul>
-                        <li>
-                            <div className="left">
-                                <div className="wrapper">
-                                    <div className="title">
-                                        <h3>Nossa especialidade: experiência de compra.</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="right">
-                                <img src="./assets/banner.jpg"/>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <ul>
+                <li>
+                    <h3>Nossa especialidade: experiência de compra.</h3>
+                    <img src="./assets/banner1.png"/>
+                </li>
+            </ul>
            </div>
        </section>
     );

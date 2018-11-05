@@ -58,6 +58,9 @@ class Prateleira extends Component {
                     {
                       this.state.data.map(x => 
                       <li>
+                        <div className="flag">
+                          {(x.off == true ? <img src="./assets/off.png"/>: '' )}
+                        </div>
                         <div className="imagemProduto">
                           <img src={x.img}/>
                         </div>
